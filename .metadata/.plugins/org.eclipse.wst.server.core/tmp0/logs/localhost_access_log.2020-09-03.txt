@@ -1,0 +1,8 @@
+127.0.0.1 - - [03/Sep/2020:23:14:37 -0300] "GET / HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [03/Sep/2020:23:14:51 -0300] "GET /NetSports/PaginaPrincipal.jsp HTTP/1.1" 200 2389
+0:0:0:0:0:0:0:1 - - [03/Sep/2020:23:14:51 -0300] "GET /NetSports/estilos/estilos.css HTTP/1.1" 200 2183
+127.0.0.1 - - [03/Sep/2020:23:25:04 -0300] "GET / HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [03/Sep/2020:23:25:33 -0300] "GET /NetSportsAtual/PaginaPrincipal.jsp HTTP/1.1" 200 1324
+0:0:0:0:0:0:0:1 - - [03/Sep/2020:23:25:33 -0300] "GET /NetSportsAtual/estilos/estilos.css HTTP/1.1" 200 2183
+0:0:0:0:0:0:0:1 - - [03/Sep/2020:23:25:43 -0300] "GET /NetSportsAtual/PaginaPrincipal.jsp HTTP/1.1" 200 1324
+0:0:0:0:0:0:0:1 - - [03/Sep/2020:23:25:43 -0300] "GET /NetSportsAtual/estilos/estilos.css HTTP/1.1" 304 -

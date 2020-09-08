@@ -1,0 +1,79 @@
+package br.com.bovchain.model;
+
+import java.time.LocalDate;
+
+public class animal {
+
+	private int IdAnimal;
+	private LocalDate DataNascimento;
+	private String Sexo;
+	private String Raça;
+	private String Proprietario;
+	private String Operação;
+	private LocalDate DataOperação;
+	private String Hash;
+	private String HashAnterior;
+	private String Bloco;
+	public int getIdAnimal() {
+		return IdAnimal;
+	}
+	public void setIdAnimal(int idAnimal) {
+		IdAnimal = idAnimal;
+	}
+	public LocalDate getDataNascimento() {
+		return DataNascimento;
+	}
+	public void setDataNascimento(LocalDate dataNascimento) {
+		DataNascimento = dataNascimento;
+	}
+	public String getSexo() {
+		return Sexo;
+	}
+	public void setSexo(String sexo) {
+		Sexo = sexo;
+	}
+	public String getRaça() {
+		return Raça;
+	}
+	public void setRaça(String raça) {
+		Raça = raça;
+	}
+	public String getProprietario() {
+		return Proprietario;
+	}
+	public void setProprietario(String proprietario) {
+		Proprietario = proprietario;
+	}
+	public String getOperação() {
+		return Operação;
+	}
+	public void setOperação(String operação) {
+		Operação = operação;
+	}
+	public LocalDate getDataOperação() {
+		return DataOperação;
+	}
+	public void setDataOperação(LocalDate dataOperação) {
+		DataOperação = dataOperação;
+	}
+	public String getHash() {
+		return Hash;
+	}
+	public void setHash(String hash) {
+		Hash = hash;
+	}
+	public String getHashAnterior() {
+		return HashAnterior;
+	}
+	public void setHashAnterior(String hashAnterior) {
+		HashAnterior = hashAnterior;
+	}
+	public String getBloco() {
+		return Bloco;
+	}
+	public void setBloco(String bloco) {
+		Bloco = bloco;
+	}
+	
+	
+}

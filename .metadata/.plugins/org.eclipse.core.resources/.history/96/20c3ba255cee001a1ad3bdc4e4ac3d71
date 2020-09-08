@@ -1,0 +1,11 @@
+
+public class BlockChain {
+
+	public void CriarHashCode() {
+
+	}
+
+	public void IncluirNoBloclo() {
+
+	}
+}

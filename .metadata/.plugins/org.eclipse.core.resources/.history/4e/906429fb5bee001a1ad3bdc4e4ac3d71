@@ -1,0 +1,52 @@
+package br.com.bovchain.model;
+
+import java.time.LocalDate;
+
+public class Usuario_Estabelecimento{
+	private String NomeUsuario;
+	private String NomeEstabelecimento;
+	private String EndereçoEstabelecimento;
+	private String TipoEstabelecimento;
+	private LocalDate DataRegistro;
+
+	public String getNomeUsuario() {
+		return NomeUsuario;
+	}
+
+	public void setNomeUsuario(String nomeUsuario) {
+		NomeUsuario = nomeUsuario;
+	}
+
+	public String getNomeEstabelecimento() {
+		return NomeEstabelecimento;
+	}
+
+	public void setNomeEstabelecimento(String nomeEstabelecimento) {
+		NomeEstabelecimento = nomeEstabelecimento;
+	}
+
+	public String getEndereçoEstabelecimento() {
+		return EndereçoEstabelecimento;
+	}
+
+	public void setEndereçoEstabelecimento(String endereçoEstabelecimento) {
+		EndereçoEstabelecimento = endereçoEstabelecimento;
+	}
+
+	public String getTipoEstabelecimento() {
+		return TipoEstabelecimento;
+	}
+
+	public void setTipoEstabelecimento(String tipoEstabelecimento) {
+		TipoEstabelecimento = tipoEstabelecimento;
+	}
+
+	public LocalDate getDataRegistro() {
+		return DataRegistro;
+	}
+
+	public void setDataRegistro(LocalDate dataRegistro) {
+		DataRegistro = dataRegistro;
+	}
+
+}
